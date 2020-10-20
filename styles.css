@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap');
+
+/* For mobile */
+
+h1 {
+    font-family: "Inconsolata";
+    font-size: 24px;
+    line-height: 25.18px;
+    color: #333333;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+img {
+    position: absolute;
+    width: 286.83px;
+    height: 220.35px;
+    margin-top: 48px;
+    margin-left: 36px;
+}
+
+h2 {
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71.09px;
+    width: 370px;
+    height: 142px;
+    letter-spacing: -3.5%;
+    margin-top: 362px;
+    margin-left: 16px;
+    color: #333333;
+}
+
+p {
+    width: 328px;
+    height: 81px;
+    margin-left: 15px;
+    margin-top: -11px;
+    font-family: "Space Mono";
+    font-weight: 400;
+    line-height: 26.66px;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.button {
+    background-color: #333333;
+    position: absolute;
+    width: 216px;
+    padding-top: 24px;
+    padding-bottom: 23px;
+    margin-top: 49px;
+    margin-left: 16px; 
+    margin-bottom: 155px;
+    color: white;
+    text-align: center;
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20.73px;
+    letter-spacing: -0.035em;
+}
+
+footer {
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 67px;
+    margin-top: 213px;
+}
+
+/* For desktop */
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        margin-top: 40px;
+        margin-left: 69px;
+    }
+
+    img {
+        width: 539.22px;
+        height: 447.43px;
+        margin-top: 184px;
+        margin-left: 69px;
+    }
+
+    h2 {
+        width: 530px;
+        height: 190px;
+        margin-left: 727px;
+        margin-top: 200px;
+    }
+
+    p {
+        margin-left: 728px;
+        margin-top: -4px;
+    }
+
+    .button {
+        margin-left: 732px;
+        margin-top: 73px;
+    }
+
+    footer {
+        margin-top: 434px;
+        margin-left: 599px;
+    }
+}
